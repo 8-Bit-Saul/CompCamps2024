@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(202, 233, 221);
 }
 
 main {
@@ -10,10 +10,19 @@ main {
 
 header {
     text-align: center;
-    text-decoration: underline;
+    color: aliceblue;
+    text-shadow: rgb(44, 44, 43) 1px 0 10px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 section {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     text-align: center;
 }
 
@@ -23,4 +32,13 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: blue;
+    transform: rotate(-4deg);
 }
