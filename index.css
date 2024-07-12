@@ -11,7 +11,7 @@ main {
 header {
     text-align: center;
     color: aliceblue;
-    text-shadow: rgb(44, 44, 43) 1px 0 10px;
+    text-shadow: rgb(45, 53, 50) 1px 0 10px;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -43,4 +43,18 @@ a:hover {
     display: inline-block;
     color: blue;
     transform: rotate(-4deg);
+}
+
+h3 {
+    color: aliceblue;
+    text-shadow: rgb(44, 44, 43) 1px 0 10px;
+}
+
+img {
+    box-shadow: rgb(44, 44, 43) 1px 0 20px;
+}
+
+iframe {
+    box-shadow: rgb(44, 44, 43) 1px 0 20px;
+
 }
